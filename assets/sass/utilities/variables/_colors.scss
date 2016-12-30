@@ -1,7 +1,6 @@
 //
 // Colors
 //==========================
-
 $white: #fff;
 $black: #000;
 
@@ -16,8 +15,8 @@ $body__backgroundColor: #eee;
 //
 // Header
 //==========================
-
 $siteTitle__LinkColor: #333;
+$siteHeader__BackgroundColor: $white;
 
 //
 // Navigation Colors
@@ -48,12 +47,9 @@ $archivePagination__Color; #333;
 $archivePagination__HoverBackgroundColor: $c3251d;
 $archivePagination__HoverColor: $white;
 
-
-
 //
-// Navigation Colors
+// Footer Colors
 //==========================
-
-$siteHeader__BackgroundColor: $white;
+$siteFooter__BorderColor: #eee;
 $siteFooter__BackgroundColor: $white;
 $footerWidgets__BackgroundColor: $white;
