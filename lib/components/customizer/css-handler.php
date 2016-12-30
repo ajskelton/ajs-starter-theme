@@ -34,8 +34,8 @@ function build_inline_css_from_customizer_settings() {
 	$css .= ( get_default_link_color() !== $color_link ) ? sprintf( '
 
 		a,
-		.entry-title a:focus,
-		.entry-title a:hover,
+		.content-title a:focus,
+		.content-title a:hover,
 		.genesis-nav-menu a:focus,
 		.genesis-nav-menu a:hover,
 		.genesis-nav-menu .current-menu-item > a,

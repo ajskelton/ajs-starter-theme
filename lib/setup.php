@@ -54,7 +54,7 @@ function adds_theme_supports() {
 			'flex-height'     => true,
 		),
 		'custom-background' => null,
-		'genesis-after-entry-widget-area' => null,
+		'genesis-after-content-widget-area' => null,
 		'genesis-footer-widgets' => 3,
 		'genesis-menus', array(
 			'primary'   => __( 'After Header Menu', CHILD_TEXT_DOMAIN ),

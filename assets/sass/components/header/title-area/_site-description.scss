@@ -1,0 +1,18 @@
+//
+// Site Description
+//===================
+
+.site-description {
+  font-size: rem( $siteTitle__FontSize );
+  font-weight: 400;
+  line-height: 1.5;
+
+  @media only screen and (max-width: 1023px) {
+    text-align: center;
+  }
+}
+
+.site-description,
+.site-title {
+  margin-bottom: 0;
+}
