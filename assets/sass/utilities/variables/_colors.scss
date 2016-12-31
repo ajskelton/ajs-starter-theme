@@ -1,5 +1,5 @@
 //
-// Colors
+// Base
 //==========================
 $white: #fff;
 $black: #000;
@@ -19,7 +19,7 @@ $siteTitle__LinkColor: #333;
 $siteHeader__BackgroundColor: $white;
 
 //
-// Navigation Colors
+// Navigation
 //==========================
 $nav__LinkColor: #333;
 $nav__HoverColor: #c3251d;
@@ -48,14 +48,14 @@ $archivePagination__HoverBackgroundColor: $c3251d;
 $archivePagination__HoverColor: $white;
 
 //
-// Footer Colors
+// Footer
 //==========================
 $siteFooter__BorderColor: #eee;
 $siteFooter__BackgroundColor: $white;
 $footerWidgets__BackgroundColor: $white;
 
 //
-// Entry Content Colors
+// Entry Content
 //==========================
 $entryFooter__Meta__BorderColor: #eee;
 $entry__BackgroundColor: $white;
@@ -64,3 +64,8 @@ $entryTitle__HoverColor: #c3251d;
 
 $entryContent__Code__BackgroundColor: #333;
 $entryContent__Code__Color: #eee;
+
+//
+// Comments
+//==========================
+$comment__BackgroundColor: $white;
