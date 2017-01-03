@@ -1,26 +1,18 @@
-/* ## Widget Base Styles
---------------------------------------------- */
+//
+// Widget Base Styles
+//============================
 
 .widget {
   margin-bottom: 40px;
   word-wrap: break-word;
-}
-
-.widget p:last-child,
-.widget ul > li:last-of-type,
-.widget-area .widget:last-of-type {
-  margin-bottom: 0;
-}
-
-.widget {
 
   ul > li {
     margin-bottom: 10px;
     padding-bottom: 10px;
-  }
 
-  ul > li:last-of-type {
-    padding-bottom: 0;
+    &:last-of-type {
+      padding-bottom: 0;
+    }
   }
 
   ol > li {
@@ -35,4 +27,17 @@
     margin: 0 0 0 30px;
     padding: 0;
   }
+
+  @media only screen and (max-width: 860px) {
+    .sidebar & {
+      padding: 30px;
+      margin-bottom: 5%;
+    }
+  }
+}
+
+.widget p:last-child,
+.widget ul > li:last-of-type,
+.widget-area .widget:last-of-type {
+  margin-bottom: 0;
 }
