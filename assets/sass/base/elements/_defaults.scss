@@ -1,5 +1,6 @@
 /* ## Default Elements
 --------------------------------------------- */
+@import "body";
 
 a,
 button,
@@ -14,13 +15,13 @@ textarea:focus,
 }
 
 a {
-  color: $link__color;
+  color: $link--color;
   text-decoration: underline;
 }
 
 a:hover,
 a:focus {
-  color: $link__hoverColor;
+  color: $link--hover-color;
   text-decoration: none;
 }
 

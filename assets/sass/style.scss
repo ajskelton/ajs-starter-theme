@@ -2,7 +2,7 @@
 	Theme Name: Ajs Starter Theme
 	Theme URI: http://anthonyskelton.com/starter-theme
 
-	Description: A minimalist skeleton theme for development.
+	Description: A Genesis-powered Developer's Starter Child Theme
 	Author: ajskelton
 	Author URI: http://anthonyskelton.com
 
@@ -19,17 +19,9 @@
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
+@import "utilities/index";
 @import "base/index";
 @import "layouts/index";
-@import "common-classes/index";
-@import "components/widgets/index";
+@import "components/index";
 @import "plugins/index";
-@import "components/accessibility/index";
-@import "components/header/index";
-@import "components/navigation/index";
-@import "components/content/index";
-@import "components/comments/index";
-@import "components/sidebar/index";
-@import "components/footer/index";
-
 @import "views/index";

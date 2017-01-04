@@ -1,42 +1,41 @@
 //
 // Dimension Variables
 //================
-$baseWidth: 1280;
+$base--width: 1280;
 $gutter: 40;
 
 //
 // Max Widths
 //=======================
-$maxWidth: $baseWidth + px;
-$maxWidth__LargerScreen: $baseWidth * .890625 + px;
-$maxWidth__LargeScreen: $baseWidth * .75 + px;
-$maxWidth__MediumScreen: $baseWidth * .625 + px;
-
+$max-width: $base--width + px;
+$max-width-larger-screen: $base--width * .890625 + px;
+$max-width-large-screen: $base--width * .75 + px;
+$max-width--medium-screen: $base--width * .625 + px;
+$max-width__landing-page: $base--width * .625 + px;
 //
 // Content Widths
 //=======================
-$content__Width: $baseWidth * 0.6875 + px;
-$content__LargerScreenWidth: $baseWidth * .625 + px;
-$content__LargeScreenWidth: $baseWidth * .484375 + px;
+$content--width: $base--width * 0.6875 + px;
+$content--width-larger-screen: $base--width * .625 + px;
+$content--width-large-screen: $base--width * .484375 + px;
+$content-both-sidebars--width: $base--width * .515625 + px;
+$content-both-sidebars--width-larger-screen: $base--width * .4453125 + px;
+$content-both-sidebars--width-large-screen: $base--width * .3125 + px;
 
-$contentBothSidebars__Width: $baseWidth * .515625 + px;
-$contentBothSidebars__LargerScreenWidth: $baseWidth * .4453125 + px;
-$contentBothSidebars__LargeScreenWidth: $baseWidth * .3125 + px;
+$primary-sidebar--width: $base--width * 0.28125 + px;
+$primary-sidebar--width-larger-screen: $base--width * .234375 + px;
+$secondary-sidebar--width: $base--width * .140625 + px;
 
-$primarySidebar__Width: $baseWidth * 0.28125 + px;
-$primarySidebar_LargerScreenWidth: $baseWidth * .234375 + px;
-$secSidebar_Width: $baseWidth * .140625 + px;
-
-$contentSidebarWrap__Width: $baseWidth * .828125 + px;
-$contentSidebarWrap__LargerScreenWidth: $baseWidth * .71875 + px;
-$contentSidebarWrap__LargeScreenWidth: $baseWidth * .578125 + px;
+$content-sidebar-wrap--width: $base--width * .828125 + px;
+$content-sidebar-wrap--width-larger-screen: $base--width * .71875 + px;
+$content-sidebar-wrap--width-large-screen: $base--width * .578125 + px;
 
 // Header Module
-$titleArea__Width: $baseWidth * .234375 + px;
-$titleArea__MinHeight: $baseWidth * .0625 + px;
-$headerRight__Width: $baseWidth * .625 + px;
-$headerRight__DesktopWidth: $baseWidth * .484375 + px;
+$title-area--width: $base--width * .234375 + px;
+$title-area--min-height: $base--width * .0625 + px;
+$header-right--width: $base--width * .625 + px;
+$header-right--width-large-screen: $base--width * .484375 + px;
 
 // Footer Module
-$footerWidgets__Width: $baseWidth * .296875 + px;
-$footerWidgets__DesktopWidth: $baseWidth * .234375 + px;
+$footer-widgets--width: $base--width * .296875 + px;
+$footer-widgets--width-large-screen: $base--width * .234375 + px;
