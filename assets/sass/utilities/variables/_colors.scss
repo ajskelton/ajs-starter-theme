@@ -4,13 +4,28 @@
 $white: #fff;
 $black: #000;
 
-$base__color: #333;
 
 $link__color: #c3251d;
 $link__hoverColor: #333;
 
+
+
+// Elements
+$base__color: #333;
 $body__backgroundColor: #eee;
 
+
+// Form Elements
+$input__BackgroundColor: $white;
+$input__BorderColor: #ddd;
+$input__Color: #333;
+$input__FocusBorderColor: #333;
+$button__BackgroundColor: #333;
+$button__Color: $white;
+$button__HoverBackgroundColor: #c3251d;
+$button__HoverColor: $white;
+$button_DisabledBackgroundColor: #eee;
+$button_DisabledColor: #777;
 
 //
 // Header
@@ -85,4 +100,13 @@ $enews__SubmitButton__BackgroundColor: #c3251d;
 $enews__SubmitButton__Color: $white;
 $enews__SubmitButton__BackgroundHoverColor: $white;
 $enews__SubmitButton__HoverColor: #333;
+
+//
+// General Components
+//==========================
+$breadcrumbs__BackgroundColor: $white;
+$authorBox__BackgroundColor: $white;
+$afterEntry__BackgroundColor: $white;
+$archiveDescription__BackgroundColor: $white;
+
 
