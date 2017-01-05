@@ -1,0 +1,26 @@
+{
+  "name": "ajs-starter-theme",
+  "version": "1.0.0",
+  "description": "This is a developer friendly starter child theme for the Genesis framework which includes a modular architecture, Sass, gulp, Bourbon, Neat, and Composer. It is your starting child theme for all of your projects to save you time and moola.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.0.0",
+    "bourbon": "^4.2.6",
+    "bourbon-neat": "^1.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajskelton/ajs-starter-theme.git"
+  },
+  "author": "Anthony Skelton",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/ajskelton/ajs-starter-theme/issues"
+  },
+  "homepage": "https://github.com/ajskelton/ajs-starter-theme#readme"
+}
