@@ -28,6 +28,17 @@ function setup_child_theme() {
 }
 
 /**
+ * Unregister Genesis callbacks. We do this here because the child theme loads before Genesis
+ *
+ * @since   1.0.0
+ *
+ * @return  void
+ */
+function unregister_genesis_callbacks() {
+	unregister_menu_callbacks();
+}
+
+/**
  * Add theme supports to the site
  *
  * @since   1.0.0
