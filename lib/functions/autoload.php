@@ -9,7 +9,6 @@
  * @license   GNU General Public License 2.0+
  */
 namespace AjsStarterTheme\Functions;
-
 /**
  * Loads non admin files.
  *
@@ -75,10 +74,10 @@ load_nonadmin_files();
 
 
 //* Setup Theme
-//include_once( $foler_lib_root() . '/lib/theme-defaults.php' );
+//include_once( $folder_lib_root() . '/lib/theme-defaults.php' );
 
 //* Add Image upload and Color select to WordPress Theme Customizer
-//require_once( $foler_lib_root() . '/lib/customizer.php' );
+//require_once( $folder_lib_root() . '/lib/customizer.php' );
 
 //* Include Customizer CSS
-//include_once( $foler_lib_root() . '/lib/css-handler.php' );
+//include_once( $folder_lib_root() . '/lib/css-handler.php' );

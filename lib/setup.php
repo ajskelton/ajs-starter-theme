@@ -10,7 +10,7 @@
  */
 namespace AjsStarterTheme;
 
-add_action( 'genesis-setup', __NAMESPACE__ . '\setup_child_theme' );
+add_action( 'genesis_setup', __NAMESPACE__ . '\setup_child_theme' );
 /**
  * Setup Child Theme
  *
@@ -21,7 +21,7 @@ add_action( 'genesis-setup', __NAMESPACE__ . '\setup_child_theme' );
 function setup_child_theme() {
 	load_child_theme_textdomain( CHILD_TEXT_DOMAIN, apply_filters( 'child_theme_textdomain', CHILD_THEME_DIR . '/languages', CHILD_TEXT_DOMAIN ) );
 
-	unregister_genesis_callbacks();
+//	unregister_genesis_callbacks();
 
 	adds_theme_supports();
 	adds_new_image_sizes();
@@ -35,7 +35,7 @@ function setup_child_theme() {
  * @return  void
  */
 function unregister_genesis_callbacks() {
-	unregister_menu_callbacks();
+//	unregister_menu_callbacks();
 }
 
 /**
@@ -70,6 +70,13 @@ function adds_theme_supports() {
 		'genesis-menus', array(
 			'primary'   => __( 'After Header Menu', CHILD_TEXT_DOMAIN ),
 			'secondary' => __( 'Footer Menu', CHILD_TEXT_DOMAIN )
+		),
+		'genesis-structural-wraps', array(
+			'header',
+			'menu-primary',
+			'menu-secondary',
+			'footer-widgets',
+			'footer',
 		)
 	);
 
@@ -100,6 +107,16 @@ function adds_new_image_sizes() {
 		add_image_size( $name, $args['width'], $args['height'], $args['crop'] );
 	}
 }
+
+//* Add support for custom header
+add_theme_support( 'custom-header', array(
+	'width'           => 1200,
+	'height'          => 360,
+	'header-selector' => '.site-title a',
+	'header-text'     => true,
+	'flex-height'     => false,
+	'default-text-color' => '81d742',
+) );
 
 add_filter( 'genesis_theme_settings_defaults', __NAMESPACE__ . '\set_theme_setting_defaults' );
 /**

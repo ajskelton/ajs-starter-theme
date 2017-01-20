@@ -18,7 +18,7 @@ namespace AjsStarterTheme\Structure;
  * @return void
  */
 function unregister_menu_callbacks() {
-	remove_action( 'genesis_ater_header', 'genesis_do_subnav' );
+	remove_action( 'genesis_after_header', 'genesis_do_subnav' );
 }
 
 //* Reposition the secondary navigation menu
